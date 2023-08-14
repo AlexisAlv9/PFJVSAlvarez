@@ -1,0 +1,18 @@
+[
+    { "id": "escritorio 1", "nombre": "Escritorio 01", "precio": 20000, "cantidad": 1, "categoria":{"nombre":"escritorio","id":"escritorios"} ,"imagen": "./img/escritorio1.jpg" },
+    { "id": "escritorio 2", "nombre": "Escritorio 02", "precio": 25000,"cantidad": 1, "categoria":{"nombre":"escritorio","id":"escritorios" } , "imagen": "./img/escritorio2.png" },
+    { "id": "escritorio 3", "nombre": "Escritorio 03", "precio": 23000,"cantidad": 1, "categoria":{"nombre":"escritorio","id":"escritorios" } , "imagen": "./img/escritorio3.jpg" },
+    
+    { "id": "accesorio 1", "nombre": "Soporte Notebook", "precio": 10000,"cantidad": 1, "categoria":{"nombre":"accesorio", "id":"accesorios" }  ,"imagen": "./img/imagen3.jpg" },
+    { "id":"accesorio 2" , "nombre": "Soporte Monitor 01", "precio": 9000,"cantidad": 1, "categoria":{"nombre":"accesorio", "id":"accesorios" } , "imagen": "./img/imagen4.jpg" },
+    { "id": "accesorio 3", "nombre": "Soporte monitor 02", "precio": 10000,"cantidad": 1, "categoria":{"nombre":"accesorio", "id":"accesorios" }  ,"imagen": "./img/imagesporta.jpg" },
+    { "id": "accesorio 4", "nombre": "Rack Bike", "precio": 7000.99, "cantidad": 1,  "categoria":{"nombre":"accesorio", "id":"accesorios" } ,"imagen": "./img/imagen5.jpg" },
+    { "id":"accesorio 5" , "nombre": "Mesita de apoyo 01", "precio": 15000,"cantidad": 1, "categoria":{"nombre":"accesorio", "id":"accesorios" } , "imagen": "./img/mesaluz.jpg" },
+    { "id":"accesorio 6" , "nombre": "Mesita de apoyo 02", "precio": 15000,"cantidad": 1, "categoria":{"nombre":"accesorio", "id":"accesorios" } , "imagen": "./img/mesaluz2.jpg" },
+    { "id":"accesorio 7" , "nombre": "Mochila 01", "precio": 11000,"cantidad": 1, "categoria":{"nombre":"accesorio", "id":"accesorios" } , "imagen": "./img/mochila2.jpg" },
+    { "id":"accesorio 8" , "nombre": "Mochila02", "precio": 11000,"cantidad": 1, "categoria":{"nombre":"accesorio", "id":"accesorios" } , "imagen": "./img/mochila.jpg" }, 
+    { "id":"accesorio 9" , "nombre": "Mini rack", "precio": 9000 ,"cantidad": 1, "categoria":{"nombre":"accesorio", "id":"accesorios" } , "imagen": "./img/accesorio1.jpg" },
+    { "id": "accesorio 10", "nombre": "Porta lapices", "precio": 7000 ,"cantidad": 1,  "categoria":{"nombre":"accesorio", "id":"accesorios" } ,"imagen": "./img/accesorio2.jpg" },
+    { "id":"accesorio 11" , "nombre": "Modular 01", "precio": 15000 ,"cantidad": 1, "categoria":{"nombre":"accesorio", "id":"accesorios" } , "imagen": "./img/modular1.jpg" },
+    { "id":"accesorio 12" , "nombre": "Modular 02", "precio": 11000 ,"cantidad": 1, "categoria":{"nombre":"accesorio", "id":"accesorios" } , "imagen": "./img/modular2.jpg" }
+    ]

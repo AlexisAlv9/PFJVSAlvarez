@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EstudioAlvarez</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="./java/productos.js"></script>
+    <script defer src="./java/index.js"></script>
+    <script defer src="./java/carrito.js"></script>
+    
+</head>
+<body>
+    
+    <div class="btn">
+    <button class="btn-menu">☰ </button>
+</div>
+    <div class="grid-container">
+        
+        
+        <nav class="sidebar" id="sidebar">
+            <button class="btn-menu-close">X </button>
+               
+                    <div class="logo"><img src="./img/logo1.png" alt="logo"><h1> Estudio Alvarez </h1></div>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#contenedorProductos">Productos</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                        <li><a href="#"><img class="carrito-logo" src="./img/carrito logo.jpg" alt="Carrito"  id="verCarrito"><span id="cantidadCarrito" class="cantidad-carrito"></span></a></li>
+                    </ul>
+                </nav>
+       
+
+        <main class="main-content" id="inicio">
+            <section class="imagen-seccion">
+                <img src="img/ar5 .jpg" alt="Imagen de la sección">
+                <h1 class="titulo-uno">Nuestra coleccion </h1>
+                <p class="parrafo-uno">Elegante, moderno, funcional.</p>
+                <button class="boton-comprar-ahora"><a href="#contenedorProductos">Crea tu espacio de trabajo </a></button>
+            </section>
+       <div class="descripcion-inicio">
+        <h1>Maravillosamente simple y altamente funcional</h1>
+        <p>Mobiliario modular diseñado pensando en tu día a día. Nuestro objetivo es que la productividad sea mas eficiente. </p>
+       </div>
+        
+       <div><video src="./video/The Artifox Walnut Desk.mp4" autoplay controls muted playsinline></video></div>
+       
+       <div class="descripcion-inicio">
+        <h1>Diseñado para trabajar juntos</h1>
+        <p>Explore nuestras colecciones y vea cómo estos ecosistemas reflexivos interactúan entre sí para ayudarlo a simplificar su vida. </p>
+       </div>
+    <!--contenido carrito-->
+            <div id="contenedorProductos" class="contenedor-productos">
+                
+            </div>
+
+            
+            <!--contenido pagina de compra-->
+            <div id="paginaCarrito" class="paginaCarrito">
+            </div>
+
+            <footer class="footer" id="contacto">
+                
+               
+                <div class="footer-content">
+                    <div class="redes-sociales">
+                    
+                        <a href="https://www.instagram.com/tu_cuenta_de_instagram" target="_blank" title="Instagram">
+                          <i class="fab fa-instagram"></i> 
+                        </a>
+                        <a href="https://twitter.com/tu_cuenta_de_twitter" target="_blank" title="Twitter">
+                          <i class="fab fa-twitter"></i> 
+                        </a>
+                      </div>
+
+                  <p>Tel: +1 234 567 890</p>
+                   <p>email: EstudioAlvarez@gmail.com</p>
+     
+                  <p>garantia.</p>
+                  <p>privacidad</p>
+                  <p>devolucion</p>
+                  <p>© Creada por Alexis Alvarez</p>
+                </div>
+                <div id="mensajeProductoAgregado" class="mensaje-producto-agregado"></div>
+              </footer>
+        </main>
+    </div>
+  
+</body>
+</html>
